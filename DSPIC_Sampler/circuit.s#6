@@ -9239,6 +9239,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pin name="SCK" x="12.7" y="2.54" length="middle" rot="R180"/>
 <pin name="SDO" x="12.7" y="-2.54" length="middle" rot="R180"/>
 <pin name="CONV" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<text x="0.635" y="-2.54" size="1.016" layer="94" rot="R90">LTC1864</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -10737,22 +10738,25 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-91.44" y1="-215.9" x2="-83.82" y2="-215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$50" class="0">
+<net name="DAC_SCK" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="BCK"/>
 <wire x1="-121.92" y1="-210.82" x2="-137.16" y2="-210.82" width="0.1524" layer="91"/>
+<label x="-137.16" y="-210.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$51" class="0">
+<net name="DAC_WS" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="WS"/>
 <wire x1="-121.92" y1="-215.9" x2="-137.16" y2="-215.9" width="0.1524" layer="91"/>
+<label x="-137.16" y="-215.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$52" class="0">
+<net name="DAC_SDI" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="DATA"/>
 <wire x1="-121.92" y1="-220.98" x2="-137.16" y2="-220.98" width="0.1524" layer="91"/>
+<label x="-137.16" y="-220.98" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
