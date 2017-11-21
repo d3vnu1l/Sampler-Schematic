@@ -1,6 +1,6 @@
 [Eagle]
 Version="08 04 01"
-Platform="Windows"
+Platform="Linux"
 Globals="Globals"
 Desktop="Desktop"
 
@@ -348,21 +348,14 @@ UsedLibraryUrn="urn:adsk.eagle:library:174"
 UsedLibraryUrn="urn:adsk.eagle:library:175"
 UsedLibraryUrn="urn:adsk.eagle:library:176"
 UsedLibraryUrn="urn:adsk.eagle:library:177"
-UsedLibrary="C:/EAGLE 8.4.1/lbr/AD823.lbr"
-UsedLibrary="C:/EAGLE 8.4.1/lbr/adafruit.lbr"
-UsedLibrary="C:/EAGLE 8.4.1/lbr/dspic33ep512gm310.lbr"
-UsedLibrary="C:/Users/ryan/Downloads/microchip-dspic33.lbr"
-UsedLibrary="C:/Users/ryan/Downloads/microchip-dspic.lbr"
-UsedLibrary="C:/Users/ryan/Downloads/microchip-dspic33fjxxmc.lbr"
-UsedLibrary="C:/EAGLE 8.4.1/lbr/ltspice/sym.lbr"
-UsedLibrary="C:/EAGLE 8.4.1/lbr/ltspice/lt-supply.lbr"
+UsedLibrary="/home/fbuga/Downloads/Adafruit-Eagle-Library-master/adafruit.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="176 131 1133 1079"
+Loc="0 0 1357 742"
 State=2
 Number=0
 
 [Desktop]
-Screen="1920 1200"
+Screen="1366 768"
 Window="Win_1"
