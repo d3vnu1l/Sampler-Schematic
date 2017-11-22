@@ -9610,6 +9610,7 @@ NS Package M08A</description>
 <sheet>
 <plain>
 <text x="-180.34" y="-25.4" size="1.778" layer="91">PicKit</text>
+<text x="-203.2" y="200.66" size="12.7" layer="91">PIC 33 Based Audio Sampler,  Schematic</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="0" y="0"/>
