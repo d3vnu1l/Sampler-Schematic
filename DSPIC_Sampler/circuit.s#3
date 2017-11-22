@@ -11055,70 +11055,70 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <parts>
 <part name="U$1" library="dspic33ep512gm310" deviceset="DSPIC33EP512GM310" device=""/>
 <part name="IC3" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LM317TL" device="" package3d_urn="urn:adsk.eagle:package:30344/1"/>
-<part name="C1" library="sym" deviceset="CAP" device=""/>
+<part name="C1" library="sym" deviceset="CAP" device="" value="0.1u"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="720"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="240"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C2" library="sym" deviceset="CAP" device=""/>
+<part name="C2" library="sym" deviceset="CAP" device="" value="1.0u"/>
 <part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LM317TL" device="" package3d_urn="urn:adsk.eagle:package:30344/1"/>
-<part name="C3" library="sym" deviceset="CAP" device=""/>
+<part name="C3" library="sym" deviceset="CAP" device="" value="0.1u"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="720"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="240"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C4" library="sym" deviceset="CAP" device=""/>
+<part name="C4" library="sym" deviceset="CAP" device="" value="1.0u"/>
 <part name="IC2" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LM317TL" device="" package3d_urn="urn:adsk.eagle:package:30344/1"/>
-<part name="C5" library="sym" deviceset="CAP" device=""/>
+<part name="C5" library="sym" deviceset="CAP" device="" value="0.1u"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="390"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="240"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C6" library="sym" deviceset="CAP" device=""/>
+<part name="C6" library="sym" deviceset="CAP" device="" value="1.0u"/>
 <part name="X2" library="adafruit" deviceset="STEREOJACK" device=""/>
-<part name="C7" library="sym" deviceset="CAP" device=""/>
-<part name="C8" library="sym" deviceset="CAP" device=""/>
-<part name="C9" library="sym" deviceset="CAP" device=""/>
+<part name="C7" library="sym" deviceset="CAP" device="" value="10u"/>
+<part name="C8" library="sym" deviceset="CAP" device="" value="10u"/>
+<part name="C9" library="sym" deviceset="CAP" device="" value="0.1u"/>
 <part name="C10" library="sym" deviceset="CAP" device=""/>
 <part name="C11" library="sym" deviceset="CAP" device=""/>
-<part name="C12" library="sym" deviceset="CAP" device=""/>
-<part name="C13" library="sym" deviceset="CAP" device=""/>
-<part name="C14" library="sym" deviceset="CAP" device=""/>
-<part name="C15" library="sym" deviceset="CAP" device=""/>
-<part name="C16" library="sym" deviceset="CAP" device=""/>
+<part name="C12" library="sym" deviceset="CAP" device="" value="0.1u"/>
+<part name="C13" library="sym" deviceset="CAP" device="" value="0.1u"/>
+<part name="C14" library="sym" deviceset="CAP" device="" value="0.1u"/>
+<part name="C15" library="sym" deviceset="CAP" device="" value="10u"/>
+<part name="C16" library="sym" deviceset="CAP" device="" value="0.1u"/>
 <part name="J1" library="adafruit" deviceset="1X5" device=""/>
-<part name="C17" library="sym" deviceset="CAP" device=""/>
-<part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
+<part name="C17" library="sym" deviceset="CAP" device="" value="0.1u"/>
+<part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="4.7k"/>
 <part name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
 <part name="R21" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="C32" library="sym" deviceset="CAP" device=""/>
-<part name="C33" library="sym" deviceset="CAP" device=""/>
-<part name="C34" library="sym" deviceset="CAP" device=""/>
-<part name="C35" library="sym" deviceset="CAP" device=""/>
-<part name="R22" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R24" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R25" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
+<part name="C32" library="sym" deviceset="CAP" device="" value="4.7u"/>
+<part name="C33" library="sym" deviceset="CAP" device="" value="0.1u"/>
+<part name="C34" library="sym" deviceset="CAP" device="" value="0.1u"/>
+<part name="C35" library="sym" deviceset="CAP" device="" value="4.7u"/>
+<part name="R22" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="4.7k"/>
+<part name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="4.7k"/>
+<part name="R24" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
+<part name="R25" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$4" library="AD823" deviceset="AD823" device=""/>
-<part name="C36" library="sym" deviceset="CAP" device=""/>
+<part name="C36" library="sym" deviceset="CAP" device="" value="0.1u"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TM1" library="adafruit" deviceset="TRIMPOT" device="TC33X"/>
 <part name="R26" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
 <part name="R27" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
 <part name="X4" library="adafruit" deviceset="STEREOJACK" device=""/>
-<part name="C37" library="sym" deviceset="CAP" device=""/>
-<part name="C38" library="sym" deviceset="CAP" device=""/>
-<part name="R30" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R31" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
+<part name="C37" library="sym" deviceset="CAP" device="" value="10u"/>
+<part name="C38" library="sym" deviceset="CAP" device="" value="10u"/>
+<part name="R30" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
+<part name="R31" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$5" library="AD823" deviceset="AD823" device=""/>
 <part name="C39" library="sym" deviceset="CAP" device=""/>
 <part name="R28" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
 <part name="R29" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
 <part name="R32" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="C40" library="sym" deviceset="CAP" device=""/>
+<part name="C40" library="sym" deviceset="CAP" device="" value="0.1u"/>
 <part name="C41" library="sym" deviceset="CAP" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -11136,13 +11136,13 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <part name="C47" library="sym" deviceset="CAP" device=""/>
 <part name="C48" library="sym" deviceset="CAP" device=""/>
 <part name="U$2" library="AD823" deviceset="AD823" device=""/>
-<part name="C18" library="sym" deviceset="CAP" device=""/>
+<part name="C18" library="sym" deviceset="CAP" device="" value="0.1u"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C19" library="sym" deviceset="CAP" device=""/>
-<part name="C20" library="sym" deviceset="CAP" device=""/>
-<part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
+<part name="C19" library="sym" deviceset="CAP" device="" value="1.5n"/>
+<part name="C20" library="sym" deviceset="CAP" device="" value="1.5n"/>
+<part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="2.7k"/>
+<part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="2.7k"/>
 <part name="SW1" library="adafruit" deviceset="SWITCH_PUSHBUTTON" device="C&amp;K_KSS"/>
 <part name="SW2" library="adafruit" deviceset="SWITCH_PUSHBUTTON" device="C&amp;K_KSS"/>
 <part name="SW3" library="adafruit" deviceset="SWITCH_PUSHBUTTON" device="C&amp;K_KSS"/>
@@ -11165,20 +11165,20 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
+<part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
+<part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
+<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
 <part name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
+<part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
 <part name="U$3" library="LTC1864" deviceset="LTC1864" device=""/>
-<part name="C21" library="sym" deviceset="CAP" device=""/>
+<part name="C21" library="sym" deviceset="CAP" device="" value="0.1u"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$6" library="LTC1387" deviceset="TDA1387" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C22" library="sym" deviceset="CAP" device=""/>
+<part name="C22" library="sym" deviceset="CAP" device="" value="0.1u"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C23" library="sym" deviceset="CAP" device=""/>
+<part name="C23" library="sym" deviceset="CAP" device="" value="0.1u"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC4" library="linear4" deviceset="REF02" device="D"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -11187,9 +11187,14 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <part name="C24" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/5.5" package3d_urn="urn:adsk.eagle:package:5429/1"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="DIS1" library="display-lcd" deviceset="EA_DIP" device=""/>
-<part name="C25" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/5.5" package3d_urn="urn:adsk.eagle:package:5429/1"/>
+<part name="C25" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/5.5" package3d_urn="urn:adsk.eagle:package:5429/1" value="0.1u"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="TM2" library="adafruit" deviceset="TRIMPOT" device="TC33X"/>
+<part name="TM2" library="adafruit" deviceset="TRIMPOT" device="TC33X" value="10k"/>
+<part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1">
+<attribute name="RESISTANCE" value="240"/>
+</part>
+<part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C26" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/5.5" package3d_urn="urn:adsk.eagle:package:5429/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -11229,7 +11234,7 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <instance part="C13" gate="G$1" x="139.7" y="-20.32" rot="R180"/>
 <instance part="C14" gate="G$1" x="17.78" y="101.6" rot="R270"/>
 <instance part="C15" gate="G$1" x="15.24" y="96.52"/>
-<instance part="C16" gate="G$1" x="-124.46" y="35.56"/>
+<instance part="C16" gate="G$1" x="-127" y="35.56"/>
 <instance part="J1" gate="G$1" x="-177.8" y="-35.56" rot="R180"/>
 <instance part="C17" gate="G$1" x="-124.46" y="-20.32"/>
 <instance part="R7" gate="G$1" x="-144.78" y="-20.32"/>
@@ -11334,6 +11339,11 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <instance part="C25" gate="G$1" x="-142.24" y="-106.68"/>
 <instance part="GND24" gate="1" x="-142.24" y="-116.84"/>
 <instance part="TM2" gate="G$1" x="-129.54" y="-106.68" rot="R180"/>
+<instance part="R14" gate="G$1" x="-139.7" y="-68.58">
+<attribute name="RESISTANCE" x="-137.668" y="-67.056" size="1.778" layer="96"/>
+</instance>
+<instance part="GND25" gate="1" x="-127" y="-60.96" rot="R90"/>
+<instance part="C26" gate="G$1" x="-119.38" y="5.08"/>
 </instances>
 <busses>
 </busses>
@@ -11486,8 +11496,8 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 </segment>
 <segment>
 <pinref part="C16" gate="G$1" pin="B"/>
-<wire x1="-121.92" y1="25.4" x2="-129.54" y2="25.4" width="0.1524" layer="91"/>
-<label x="-129.54" y="25.4" size="1.778" layer="95"/>
+<wire x1="-124.46" y1="25.4" x2="-134.62" y2="25.4" width="0.1524" layer="91"/>
+<label x="-134.62" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VSS5"/>
@@ -11726,6 +11736,11 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-129.54" y1="-101.6" x2="-142.24" y2="-104.14" width="0.1524" layer="91"/>
 <junction x="-142.24" y="-104.14"/>
 </segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="-134.62" y1="-68.58" x2="-127" y2="-68.58" width="0.1524" layer="91"/>
+<label x="-130.556" y="-67.31" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$5" class="0">
 <segment>
@@ -11934,13 +11949,13 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 </net>
 <net name="3,3" class="0">
 <segment>
-<wire x1="-106.68" y1="33.02" x2="-114.3" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-114.3" y1="33.02" x2="-114.3" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-114.3" y1="35.56" x2="-121.92" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="33.02" x2="-111.76" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="33.02" x2="-111.76" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="35.56" x2="-124.46" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="A"/>
-<wire x1="-121.92" y1="35.56" x2="-129.54" y2="35.56" width="0.1524" layer="91"/>
-<junction x="-121.92" y="35.56"/>
-<label x="-129.54" y="35.56" size="1.778" layer="95"/>
+<wire x1="-124.46" y1="35.56" x2="-132.08" y2="35.56" width="0.1524" layer="91"/>
+<junction x="-124.46" y="35.56"/>
+<label x="-134.62" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PGC" class="0">
@@ -12350,39 +12365,43 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <junction x="0" y="-195.58"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="PB1" class="0">
 <segment>
 <pinref part="SW1" gate="G$1" pin="P$1"/>
 <wire x1="-198.12" y1="119.38" x2="-200.66" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="-200.66" y1="119.38" x2="-200.66" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-200.66" y1="114.3" x2="-193.04" y2="114.3" width="0.1524" layer="91"/>
+<label x="-198.12" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="PB5" class="0">
 <segment>
 <pinref part="SW8" gate="G$1" pin="P$1"/>
 <wire x1="-198.12" y1="106.68" x2="-200.66" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-200.66" y1="106.68" x2="-200.66" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-200.66" y1="101.6" x2="-193.04" y2="101.6" width="0.1524" layer="91"/>
+<label x="-198.12" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="PB9" class="0">
 <segment>
 <wire x1="-198.12" y1="93.98" x2="-200.66" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-200.66" y1="93.98" x2="-200.66" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-200.66" y1="88.9" x2="-193.04" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="SW9" gate="G$1" pin="P$1"/>
+<label x="-198.12" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="PB13" class="0">
 <segment>
 <wire x1="-198.12" y1="81.28" x2="-200.66" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-200.66" y1="81.28" x2="-200.66" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-200.66" y1="76.2" x2="-193.04" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="SW10" gate="G$1" pin="P$1"/>
+<label x="-198.12" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="PB17" class="0">
 <segment>
 <wire x1="-170.18" y1="45.72" x2="-172.72" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-172.72" y1="45.72" x2="-172.72" y2="40.64" width="0.1524" layer="91"/>
@@ -12390,102 +12409,115 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <pinref part="SW17" gate="G$1" pin="P$1"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <junction x="-172.72" y="45.72"/>
+<label x="-170.18" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="PB14" class="0">
 <segment>
 <wire x1="-180.34" y1="81.28" x2="-182.88" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="81.28" x2="-182.88" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="76.2" x2="-175.26" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="SW12" gate="G$1" pin="P$1"/>
+<label x="-180.34" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="PB10" class="0">
 <segment>
 <wire x1="-180.34" y1="93.98" x2="-182.88" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="93.98" x2="-182.88" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="88.9" x2="-175.26" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="SW11" gate="G$1" pin="P$1"/>
+<label x="-180.34" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="PB6" class="0">
 <segment>
 <wire x1="-180.34" y1="106.68" x2="-182.88" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="106.68" x2="-182.88" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="101.6" x2="-175.26" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="SW7" gate="G$1" pin="P$1"/>
+<label x="-180.34" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="PB2" class="0">
 <segment>
 <wire x1="-180.34" y1="119.38" x2="-182.88" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="119.38" x2="-182.88" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="114.3" x2="-175.26" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="SW2" gate="G$1" pin="P$1"/>
+<label x="-180.34" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="PB3" class="0">
 <segment>
 <wire x1="-162.56" y1="119.38" x2="-165.1" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="-165.1" y1="119.38" x2="-165.1" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-165.1" y1="114.3" x2="-157.48" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="SW3" gate="G$1" pin="P$1"/>
+<label x="-162.56" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="PB7" class="0">
 <segment>
 <wire x1="-162.56" y1="106.68" x2="-165.1" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-165.1" y1="106.68" x2="-165.1" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-165.1" y1="101.6" x2="-157.48" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="SW6" gate="G$1" pin="P$1"/>
+<label x="-162.56" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="PB11" class="0">
 <segment>
 <wire x1="-162.56" y1="93.98" x2="-165.1" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-165.1" y1="93.98" x2="-165.1" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-165.1" y1="88.9" x2="-157.48" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="SW13" gate="G$1" pin="P$1"/>
+<label x="-162.56" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="PB15" class="0">
 <segment>
 <wire x1="-162.56" y1="81.28" x2="-165.1" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-165.1" y1="81.28" x2="-165.1" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-165.1" y1="76.2" x2="-157.48" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="SW14" gate="G$1" pin="P$1"/>
+<label x="-162.56" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$25" class="0">
+<net name="PB16" class="0">
 <segment>
 <wire x1="-144.78" y1="81.28" x2="-147.32" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="81.28" x2="-147.32" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="76.2" x2="-139.7" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="SW16" gate="G$1" pin="P$1"/>
+<label x="-144.78" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$26" class="0">
+<net name="PB12" class="0">
 <segment>
 <wire x1="-144.78" y1="93.98" x2="-147.32" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="93.98" x2="-147.32" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="88.9" x2="-139.7" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="SW15" gate="G$1" pin="P$1"/>
+<label x="-144.78" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$32" class="0">
+<net name="PB8" class="0">
 <segment>
 <wire x1="-144.78" y1="106.68" x2="-147.32" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="106.68" x2="-147.32" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="101.6" x2="-139.7" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="SW5" gate="G$1" pin="P$1"/>
+<label x="-144.78" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$33" class="0">
+<net name="PB4" class="0">
 <segment>
 <wire x1="-144.78" y1="119.38" x2="-147.32" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="119.38" x2="-147.32" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="114.3" x2="-139.7" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="SW4" gate="G$1" pin="P$1"/>
+<label x="-144.78" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND1" class="0">
@@ -12591,6 +12623,11 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-167.64" y1="-109.22" x2="-147.32" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="-109.22" x2="-147.32" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="-111.76" x2="-142.24" y2="-111.76" width="0.1524" layer="91"/>
+<pinref part="DIS1" gate="G$1" pin="R/W"/>
+<wire x1="-167.64" y1="-99.06" x2="-165.1" y2="-99.06" width="0.1524" layer="91"/>
+<wire x1="-165.1" y1="-99.06" x2="-165.1" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="-165.1" y1="-111.76" x2="-147.32" y2="-111.76" width="0.1524" layer="91"/>
+<junction x="-147.32" y="-111.76"/>
 </segment>
 </net>
 <net name="N$52" class="0">
@@ -12601,6 +12638,131 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-160.02" y1="-101.6" x2="-134.62" y2="-101.6" width="0.1524" layer="91"/>
 <pinref part="TM2" gate="G$1" pin="S"/>
 <wire x1="-134.62" y1="-101.6" x2="-134.62" y2="-106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$54" class="0">
+<segment>
+<pinref part="DIS1" gate="G$1" pin="RS"/>
+<wire x1="-167.64" y1="-101.6" x2="-162.56" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="-101.6" x2="-162.56" y2="-99.06" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="-99.06" x2="-152.4" y2="-99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$55" class="0">
+<segment>
+<pinref part="DIS1" gate="G$1" pin="E"/>
+<wire x1="-167.64" y1="-96.52" x2="-152.4" y2="-96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LCD0" class="0">
+<segment>
+<pinref part="DIS1" gate="G$1" pin="D0"/>
+<wire x1="-167.64" y1="-93.98" x2="-152.4" y2="-93.98" width="0.1524" layer="91"/>
+<label x="-157.48" y="-93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LCD1" class="0">
+<segment>
+<wire x1="-167.64" y1="-91.44" x2="-152.4" y2="-91.44" width="0.1524" layer="91"/>
+<label x="-157.48" y="-91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LCD2" class="0">
+<segment>
+<wire x1="-167.64" y1="-88.9" x2="-152.4" y2="-88.9" width="0.1524" layer="91"/>
+<label x="-157.48" y="-88.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LCD3" class="0">
+<segment>
+<wire x1="-167.64" y1="-86.36" x2="-152.4" y2="-86.36" width="0.1524" layer="91"/>
+<label x="-157.48" y="-86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LCD4" class="0">
+<segment>
+<wire x1="-167.64" y1="-83.82" x2="-152.4" y2="-83.82" width="0.1524" layer="91"/>
+<label x="-157.48" y="-83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LCD5" class="0">
+<segment>
+<wire x1="-167.64" y1="-81.28" x2="-152.4" y2="-81.28" width="0.1524" layer="91"/>
+<label x="-157.48" y="-81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LCD6" class="0">
+<segment>
+<wire x1="-167.64" y1="-78.74" x2="-152.4" y2="-78.74" width="0.1524" layer="91"/>
+<label x="-157.48" y="-78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LCD7" class="0">
+<segment>
+<wire x1="-167.64" y1="-76.2" x2="-152.4" y2="-76.2" width="0.1524" layer="91"/>
+<label x="-157.48" y="-76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$65" class="0">
+<segment>
+<wire x1="-167.64" y1="-68.58" x2="-144.78" y2="-68.58" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$66" class="0">
+<segment>
+<wire x1="-167.64" y1="-66.04" x2="-152.4" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="-152.4" y1="-66.04" x2="-152.4" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="-152.4" y1="-60.96" x2="-129.54" y2="-60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LCD_0" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="RP42/PWM3H/PMD0/RB10"/>
+<wire x1="-22.86" y1="78.74" x2="-22.86" y2="88.9" width="0.1524" layer="91"/>
+<label x="-23.622" y="84.582" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="LCD_1" class="0">
+<segment>
+<wire x1="-27.94" y1="78.74" x2="-27.94" y2="88.9" width="0.1524" layer="91"/>
+<label x="-28.448" y="84.582" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="LCD_2" class="0">
+<segment>
+<wire x1="-48.26" y1="78.74" x2="-48.26" y2="88.9" width="0.1524" layer="91"/>
+<label x="-49.276" y="85.09" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="LCD_3" class="0">
+<segment>
+<wire x1="-53.34" y1="78.74" x2="-53.34" y2="88.9" width="0.1524" layer="91"/>
+<label x="-54.61" y="85.09" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="LCD_4" class="0">
+<segment>
+<wire x1="-58.42" y1="78.74" x2="-58.42" y2="88.9" width="0.1524" layer="91"/>
+<label x="-59.436" y="84.836" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="LCD_5" class="0">
+<segment>
+<wire x1="-106.68" y1="27.94" x2="-116.84" y2="27.94" width="0.1524" layer="91"/>
+<label x="-109.474" y="30.48" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="LCD_6" class="0">
+<segment>
+<wire x1="-106.68" y1="22.86" x2="-116.84" y2="22.86" width="0.1524" layer="91"/>
+<label x="-116.84" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LCD_7" class="0">
+<segment>
+<wire x1="-106.68" y1="17.78" x2="-116.84" y2="17.78" width="0.1524" layer="91"/>
+<label x="-116.84" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
