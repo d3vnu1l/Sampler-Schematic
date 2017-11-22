@@ -13082,12 +13082,22 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="208.28" y1="-93.98" x2="218.44" y2="-93.98" width="0.1524" layer="91"/>
 <label x="213.36" y="-93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN29/SCK1/RPI51/RC3"/>
+<wire x1="121.92" y1="-58.42" x2="132.08" y2="-58.42" width="0.1524" layer="91"/>
+<label x="127" y="-58.42" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MEM_SI" class="0">
 <segment>
 <pinref part="U$8" gate="G$1" pin="SI/IO0"/>
 <wire x1="208.28" y1="-99.06" x2="218.44" y2="-99.06" width="0.1524" layer="91"/>
 <label x="213.36" y="-99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN28/SDI1/RPI25/RA9"/>
+<wire x1="121.92" y1="-63.5" x2="132.08" y2="-63.5" width="0.1524" layer="91"/>
+<label x="127" y="-63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEM_CS2" class="0">
@@ -13096,6 +13106,11 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="172.72" y1="-119.38" x2="160.02" y2="-119.38" width="0.1524" layer="91"/>
 <label x="157.48" y="-119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN40/RPI80/RE0"/>
+<wire x1="121.92" y1="-73.66" x2="132.08" y2="-73.66" width="0.1524" layer="91"/>
+<label x="127" y="-73.66" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MEM_CS1" class="0">
 <segment>
@@ -13103,12 +13118,22 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="172.72" y1="-124.46" x2="160.02" y2="-124.46" width="0.1524" layer="91"/>
 <label x="157.48" y="-124.46" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN41/RP81/RE1"/>
+<wire x1="121.92" y1="-68.58" x2="132.08" y2="-68.58" width="0.1524" layer="91"/>
+<label x="127" y="-68.58" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MEM_SO" class="0">
 <segment>
 <pinref part="U$8" gate="G$1" pin="SO/IO1"/>
 <wire x1="172.72" y1="-129.54" x2="160.02" y2="-129.54" width="0.1524" layer="91"/>
 <label x="157.48" y="-129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="OA5IN+/AN24/C5IN3-/C5IN1+/SDO1/RP20/T1CK/RA4"/>
+<wire x1="121.92" y1="-78.74" x2="132.08" y2="-78.74" width="0.1524" layer="91"/>
+<label x="127" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEM_RESET" class="0">
