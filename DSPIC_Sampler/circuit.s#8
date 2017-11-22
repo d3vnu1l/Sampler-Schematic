@@ -12753,6 +12753,18 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <label x="-109.474" y="30.48" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
+<net name="LCD_6" class="0">
+<segment>
+<wire x1="-106.68" y1="22.86" x2="-116.84" y2="22.86" width="0.1524" layer="91"/>
+<label x="-116.84" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LCD_7" class="0">
+<segment>
+<wire x1="-106.68" y1="17.78" x2="-116.84" y2="17.78" width="0.1524" layer="91"/>
+<label x="-116.84" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

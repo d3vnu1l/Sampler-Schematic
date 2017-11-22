@@ -12654,55 +12654,6 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-167.64" y1="-96.52" x2="-152.4" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LCD0" class="0">
-<segment>
-<pinref part="DIS1" gate="G$1" pin="D0"/>
-<wire x1="-167.64" y1="-93.98" x2="-152.4" y2="-93.98" width="0.1524" layer="91"/>
-<label x="-157.48" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LCD1" class="0">
-<segment>
-<wire x1="-167.64" y1="-91.44" x2="-152.4" y2="-91.44" width="0.1524" layer="91"/>
-<label x="-157.48" y="-91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LCD2" class="0">
-<segment>
-<wire x1="-167.64" y1="-88.9" x2="-152.4" y2="-88.9" width="0.1524" layer="91"/>
-<label x="-157.48" y="-88.9" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LCD3" class="0">
-<segment>
-<wire x1="-167.64" y1="-86.36" x2="-152.4" y2="-86.36" width="0.1524" layer="91"/>
-<label x="-157.48" y="-86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LCD4" class="0">
-<segment>
-<wire x1="-167.64" y1="-83.82" x2="-152.4" y2="-83.82" width="0.1524" layer="91"/>
-<label x="-157.48" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LCD5" class="0">
-<segment>
-<wire x1="-167.64" y1="-81.28" x2="-152.4" y2="-81.28" width="0.1524" layer="91"/>
-<label x="-157.48" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LCD6" class="0">
-<segment>
-<wire x1="-167.64" y1="-78.74" x2="-152.4" y2="-78.74" width="0.1524" layer="91"/>
-<label x="-157.48" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LCD7" class="0">
-<segment>
-<wire x1="-167.64" y1="-76.2" x2="-152.4" y2="-76.2" width="0.1524" layer="91"/>
-<label x="-157.48" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$65" class="0">
 <segment>
 <wire x1="-167.64" y1="-68.58" x2="-144.78" y2="-68.58" width="0.1524" layer="91"/>
@@ -12722,11 +12673,20 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-22.86" y1="78.74" x2="-22.86" y2="88.9" width="0.1524" layer="91"/>
 <label x="-23.622" y="84.582" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="DIS1" gate="G$1" pin="D0"/>
+<wire x1="-167.64" y1="-93.98" x2="-152.4" y2="-93.98" width="0.1524" layer="91"/>
+<label x="-157.48" y="-93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LCD_1" class="0">
 <segment>
 <wire x1="-27.94" y1="78.74" x2="-27.94" y2="88.9" width="0.1524" layer="91"/>
 <label x="-28.448" y="84.582" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="-167.64" y1="-91.44" x2="-152.4" y2="-91.44" width="0.1524" layer="91"/>
+<label x="-157.48" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LCD_2" class="0">
@@ -12734,11 +12694,19 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-48.26" y1="78.74" x2="-48.26" y2="88.9" width="0.1524" layer="91"/>
 <label x="-49.276" y="85.09" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<wire x1="-167.64" y1="-88.9" x2="-152.4" y2="-88.9" width="0.1524" layer="91"/>
+<label x="-157.48" y="-88.9" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LCD_3" class="0">
 <segment>
 <wire x1="-53.34" y1="78.74" x2="-53.34" y2="88.9" width="0.1524" layer="91"/>
 <label x="-54.61" y="85.09" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="-167.64" y1="-86.36" x2="-152.4" y2="-86.36" width="0.1524" layer="91"/>
+<label x="-157.48" y="-86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LCD_4" class="0">
@@ -12746,11 +12714,19 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-58.42" y1="78.74" x2="-58.42" y2="88.9" width="0.1524" layer="91"/>
 <label x="-59.436" y="84.836" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<wire x1="-167.64" y1="-83.82" x2="-152.4" y2="-83.82" width="0.1524" layer="91"/>
+<label x="-157.48" y="-83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LCD_5" class="0">
 <segment>
 <wire x1="-106.68" y1="27.94" x2="-116.84" y2="27.94" width="0.1524" layer="91"/>
 <label x="-109.474" y="30.48" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<wire x1="-167.64" y1="-81.28" x2="-152.4" y2="-81.28" width="0.1524" layer="91"/>
+<label x="-157.48" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LCD_6" class="0">
@@ -12758,11 +12734,19 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-106.68" y1="22.86" x2="-116.84" y2="22.86" width="0.1524" layer="91"/>
 <label x="-116.84" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="-167.64" y1="-78.74" x2="-152.4" y2="-78.74" width="0.1524" layer="91"/>
+<label x="-157.48" y="-78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LCD_7" class="0">
 <segment>
 <wire x1="-106.68" y1="17.78" x2="-116.84" y2="17.78" width="0.1524" layer="91"/>
 <label x="-116.84" y="17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-167.64" y1="-76.2" x2="-152.4" y2="-76.2" width="0.1524" layer="91"/>
+<label x="-157.48" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

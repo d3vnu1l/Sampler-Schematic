@@ -11230,7 +11230,7 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <instance part="C9" gate="G$1" x="-124.46" y="-30.48"/>
 <instance part="C10" gate="G$1" x="-10.16" y="-139.7" rot="R90"/>
 <instance part="C11" gate="G$1" x="20.32" y="-139.7" rot="R90"/>
-<instance part="C12" gate="G$1" x="66.04" y="-139.7" rot="R90"/>
+<instance part="C12" gate="G$1" x="66.04" y="-149.86" rot="R90"/>
 <instance part="C13" gate="G$1" x="139.7" y="-20.32" rot="R180"/>
 <instance part="C14" gate="G$1" x="17.78" y="101.6" rot="R270"/>
 <instance part="C15" gate="G$1" x="15.24" y="96.52"/>
@@ -11468,13 +11468,13 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <label x="20.32" y="-144.78" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="-121.92" x2="68.58" y2="-129.54" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="-129.54" x2="66.04" y2="-129.54" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="-129.54" x2="66.04" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-121.92" x2="68.58" y2="-139.7" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-139.7" x2="66.04" y2="-139.7" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-139.7" x2="66.04" y2="-147.32" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="A"/>
-<wire x1="66.04" y1="-137.16" x2="66.04" y2="-144.78" width="0.1524" layer="91"/>
-<junction x="66.04" y="-137.16"/>
-<label x="66.04" y="-144.78" size="1.778" layer="95" rot="R90"/>
+<wire x1="66.04" y1="-147.32" x2="66.04" y2="-154.94" width="0.1524" layer="91"/>
+<junction x="66.04" y="-147.32"/>
+<label x="66.04" y="-154.94" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <wire x1="129.54" y1="-10.16" x2="137.16" y2="-10.16" width="0.1524" layer="91"/>
@@ -11783,13 +11783,13 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <label x="30.48" y="-144.78" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="-121.92" x2="73.66" y2="-129.54" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-129.54" x2="76.2" y2="-129.54" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-129.54" x2="76.2" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-121.92" x2="73.66" y2="-139.7" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-139.7" x2="76.2" y2="-139.7" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-139.7" x2="76.2" y2="-147.32" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="B"/>
-<wire x1="76.2" y1="-137.16" x2="76.2" y2="-144.78" width="0.1524" layer="91"/>
-<junction x="76.2" y="-137.16"/>
-<label x="76.2" y="-144.78" size="1.778" layer="95" rot="R90"/>
+<wire x1="76.2" y1="-147.32" x2="76.2" y2="-154.94" width="0.1524" layer="91"/>
+<junction x="76.2" y="-147.32"/>
+<label x="76.2" y="-154.94" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <wire x1="129.54" y1="-20.32" x2="137.16" y2="-20.32" width="0.1524" layer="91"/>
@@ -12640,18 +12640,11 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-134.62" y1="-101.6" x2="-134.62" y2="-106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$54" class="0">
-<segment>
-<pinref part="DIS1" gate="G$1" pin="RS"/>
-<wire x1="-167.64" y1="-101.6" x2="-162.56" y2="-101.6" width="0.1524" layer="91"/>
-<wire x1="-162.56" y1="-101.6" x2="-162.56" y2="-99.06" width="0.1524" layer="91"/>
-<wire x1="-162.56" y1="-99.06" x2="-152.4" y2="-99.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$55" class="0">
+<net name="LCD_E" class="0">
 <segment>
 <pinref part="DIS1" gate="G$1" pin="E"/>
 <wire x1="-167.64" y1="-96.52" x2="-152.4" y2="-96.52" width="0.1524" layer="91"/>
+<label x="-157.48" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$65" class="0">
@@ -12747,6 +12740,19 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <segment>
 <wire x1="-167.64" y1="-76.2" x2="-152.4" y2="-76.2" width="0.1524" layer="91"/>
 <label x="-157.48" y="-76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LCD_RS" class="0">
+<segment>
+<wire x1="63.5" y1="-121.92" x2="63.5" y2="-132.08" width="0.1524" layer="91"/>
+<label x="63.5" y="-134.62" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="DIS1" gate="G$1" pin="RS"/>
+<wire x1="-167.64" y1="-101.6" x2="-162.56" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="-101.6" x2="-162.56" y2="-99.06" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="-99.06" x2="-152.4" y2="-99.06" width="0.1524" layer="91"/>
+<label x="-157.48" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
