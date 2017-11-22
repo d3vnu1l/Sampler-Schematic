@@ -11293,6 +11293,9 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$8" library="S70FL01GSAGMFI011" deviceset="S70FL01GSAGMFI011" device=""/>
+<part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C26" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/5.5" package3d_urn="urn:adsk.eagle:package:5429/1"/>
+<part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11450,7 +11453,10 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <instance part="GND26" gate="1" x="-157.48" y="-96.52"/>
 <instance part="GND27" gate="1" x="-177.8" y="-96.52"/>
 <instance part="GND28" gate="1" x="-195.58" y="-96.52"/>
-<instance part="U$8" gate="G$1" x="190.5" y="-104.14"/>
+<instance part="U$8" gate="G$1" x="190.5" y="-111.76"/>
+<instance part="GND29" gate="1" x="223.52" y="-124.46" rot="R90"/>
+<instance part="C26" gate="G$1" x="157.48" y="-93.98"/>
+<instance part="GND30" gate="1" x="152.4" y="-91.44" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -11608,8 +11614,8 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VSS5"/>
-<wire x1="121.92" y1="43.18" x2="137.16" y2="43.18" width="0.1524" layer="91"/>
-<label x="134.62" y="43.18" size="1.778" layer="95"/>
+<wire x1="121.92" y1="43.18" x2="134.62" y2="43.18" width="0.1524" layer="91"/>
+<label x="132.08" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <label x="-170.18" y="-35.56" size="1.778" layer="95"/>
@@ -11795,6 +11801,7 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <segment>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="-132.08" y1="7.62" x2="-132.08" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="C24" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND24" gate="1" pin="GND"/>
@@ -11837,6 +11844,16 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <pinref part="TM5" gate="G$1" pin="E"/>
 <wire x1="-147.32" y1="-88.9" x2="-147.32" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="-68.58" x2="-149.86" y2="-68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="208.28" y1="-124.46" x2="220.98" y2="-124.46" width="0.1524" layer="91"/>
+<pinref part="GND29" gate="1" pin="GND"/>
+<pinref part="U$8" gate="G$1" pin="VSS"/>
+</segment>
+<segment>
+<pinref part="GND30" gate="1" pin="GND"/>
+<wire x1="157.48" y1="-91.44" x2="154.94" y2="-91.44" width="0.1524" layer="91"/>
+<pinref part="C26" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -12019,6 +12036,14 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-195.58" y1="-78.74" x2="-195.58" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="-195.58" y1="-55.88" x2="-185.42" y2="-55.88" width="0.1524" layer="91"/>
 <junction x="-185.42" y="-55.88"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="VCC"/>
+<wire x1="172.72" y1="-99.06" x2="157.48" y2="-99.06" width="0.1524" layer="91"/>
+<label x="152.4" y="-99.06" size="1.778" layer="95"/>
+<pinref part="C26" gate="G$1" pin="2"/>
+<wire x1="157.48" y1="-99.06" x2="152.4" y2="-99.06" width="0.1524" layer="91"/>
+<junction x="157.48" y="-99.06"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -12747,25 +12772,15 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <pinref part="R13" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="ADC_SCK" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="SCK"/>
-<wire x1="109.22" y1="157.48" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
-<label x="116.84" y="157.48" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="ADC_SDO" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="SDO"/>
 <wire x1="109.22" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
 <label x="116.84" y="152.4" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="ADC_CONV" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="CONV"/>
-<wire x1="109.22" y1="147.32" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
-<label x="116.84" y="147.32" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="SOSCI/RPI61/RC13"/>
+<wire x1="121.92" y1="33.02" x2="134.62" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$44" class="0">
@@ -12781,6 +12796,16 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-132.08" y1="-193.04" x2="-147.32" y2="-193.04" width="0.1524" layer="91"/>
 <label x="-147.32" y="-193.04" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="TCK/AN26/CVREF1O/SOSCO/RP40/T4CK/RB8"/>
+<wire x1="121.92" y1="38.1" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
+<label x="132.08" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="SCK"/>
+<wire x1="109.22" y1="157.48" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
+<label x="116.84" y="157.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DAC_WS" class="0">
 <segment>
@@ -12788,12 +12813,27 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-132.08" y1="-198.12" x2="-147.32" y2="-198.12" width="0.1524" layer="91"/>
 <label x="-147.32" y="-198.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="OA5OUT/AN25/C5IN4-/RP39/INT0/RB7"/>
+<wire x1="121.92" y1="27.94" x2="134.62" y2="27.94" width="0.1524" layer="91"/>
+<label x="132.08" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="CONV"/>
+<wire x1="109.22" y1="147.32" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
+<label x="116.84" y="147.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DAC_SDI" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="DATA"/>
 <wire x1="-132.08" y1="-203.2" x2="-147.32" y2="-203.2" width="0.1524" layer="91"/>
 <label x="-147.32" y="-203.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="TMS/OA5IN-/AN27/C5IN1-/RP41/RB9"/>
+<wire x1="63.5" y1="78.74" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
+<label x="63.5" y="83.82" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$45" class="0">
@@ -12811,12 +12851,22 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-157.48" y1="7.62" x2="-147.32" y2="7.62" width="0.1524" layer="91"/>
 <label x="-149.86" y="7.62" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PGED2/ASDA2/RP37/RB5"/>
+<wire x1="121.92" y1="12.7" x2="134.62" y2="12.7" width="0.1524" layer="91"/>
+<label x="132.08" y="12.7" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="BT_RX" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="RX"/>
 <wire x1="-157.48" y1="5.08" x2="-147.32" y2="5.08" width="0.1524" layer="91"/>
 <label x="-149.86" y="5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="RPI72/RD8"/>
+<wire x1="121.92" y1="7.62" x2="134.62" y2="7.62" width="0.1524" layer="91"/>
+<label x="132.08" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$50" class="0">
@@ -13049,6 +13099,81 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <pinref part="U$1" gate="G$1" pin="OA2OUT/AN0/C2IN4-/C4IN3-/RPI16/RA0"/>
 <wire x1="-106.68" y1="-68.58" x2="-116.84" y2="-68.58" width="0.1524" layer="91"/>
 <label x="-116.84" y="-68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MEM_SCK" class="0">
+<segment>
+<pinref part="U$8" gate="G$1" pin="SCK"/>
+<wire x1="208.28" y1="-93.98" x2="218.44" y2="-93.98" width="0.1524" layer="91"/>
+<label x="213.36" y="-93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN29/SCK1/RPI51/RC3"/>
+<wire x1="121.92" y1="-58.42" x2="132.08" y2="-58.42" width="0.1524" layer="91"/>
+<label x="127" y="-58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MEM_SI" class="0">
+<segment>
+<pinref part="U$8" gate="G$1" pin="SI/IO0"/>
+<wire x1="208.28" y1="-99.06" x2="218.44" y2="-99.06" width="0.1524" layer="91"/>
+<label x="213.36" y="-99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN28/SDI1/RPI25/RA9"/>
+<wire x1="121.92" y1="-63.5" x2="132.08" y2="-63.5" width="0.1524" layer="91"/>
+<label x="127" y="-63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MEM_CS2" class="0">
+<segment>
+<pinref part="U$8" gate="G$1" pin="CS2#"/>
+<wire x1="172.72" y1="-119.38" x2="160.02" y2="-119.38" width="0.1524" layer="91"/>
+<label x="157.48" y="-119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN40/RPI80/RE0"/>
+<wire x1="121.92" y1="-73.66" x2="132.08" y2="-73.66" width="0.1524" layer="91"/>
+<label x="127" y="-73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MEM_CS1" class="0">
+<segment>
+<pinref part="U$8" gate="G$1" pin="CS1#"/>
+<wire x1="172.72" y1="-124.46" x2="160.02" y2="-124.46" width="0.1524" layer="91"/>
+<label x="157.48" y="-124.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN41/RP81/RE1"/>
+<wire x1="121.92" y1="-68.58" x2="132.08" y2="-68.58" width="0.1524" layer="91"/>
+<label x="127" y="-68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MEM_SO" class="0">
+<segment>
+<pinref part="U$8" gate="G$1" pin="SO/IO1"/>
+<wire x1="172.72" y1="-129.54" x2="160.02" y2="-129.54" width="0.1524" layer="91"/>
+<label x="157.48" y="-129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="OA5IN+/AN24/C5IN3-/C5IN1+/SDO1/RP20/T1CK/RA4"/>
+<wire x1="121.92" y1="-78.74" x2="132.08" y2="-78.74" width="0.1524" layer="91"/>
+<label x="127" y="-78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MEM_RESET" class="0">
+<segment>
+<pinref part="U$8" gate="G$1" pin="RESET#/RFU"/>
+<wire x1="172.72" y1="-104.14" x2="160.02" y2="-104.14" width="0.1524" layer="91"/>
+<label x="157.48" y="-104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MEM_HOLD" class="0">
+<segment>
+<pinref part="U$8" gate="G$1" pin="HOLD#/IO3"/>
+<wire x1="172.72" y1="-93.98" x2="167.64" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="-93.98" x2="167.64" y2="-81.28" width="0.1524" layer="91"/>
+<label x="161.544" y="-80.518" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
