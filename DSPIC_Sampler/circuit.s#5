@@ -11300,7 +11300,16 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <sheets>
 <sheet>
 <plain>
-<text x="-180.34" y="-25.4" size="1.778" layer="91">PicKit</text>
+<text x="-195.58" y="20.32" size="1.778" layer="95">Bluetooth</text>
+<text x="-182.88" y="-25.4" size="1.778" layer="95">Pic Kit</text>
+<text x="-198.12" y="-111.76" size="1.778" layer="95">HD77480 LCD</text>
+<text x="-127" y="-185.42" size="1.778" layer="95">DAC</text>
+<text x="-30.48" y="-187.96" size="1.778" layer="95">Op Amp</text>
+<text x="78.74" y="-172.72" size="1.778" layer="95">Op Amp</text>
+<text x="-2.54" y="167.64" size="1.778" layer="95">Op Amp</text>
+<text x="182.88" y="127" size="1.778" layer="95">LM317 vreg</text>
+<text x="182.88" y="60.96" size="1.778" layer="95">LM317 vreg</text>
+<text x="182.88" y="-5.08" size="1.778" layer="95">LM317 vreg</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="0" y="0"/>
@@ -13049,12 +13058,22 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-154.94" y1="-63.5" x2="-154.94" y2="-76.2" width="0.1524" layer="91"/>
 <label x="-152.4" y="-76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN20/RE9"/>
+<wire x1="-106.68" y1="-53.34" x2="-116.84" y2="-53.34" width="0.1524" layer="91"/>
+<label x="-116.84" y="-53.34" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="POT_5" class="0">
 <segment>
 <pinref part="TM8" gate="G$1" pin="S"/>
 <wire x1="-162.56" y1="-83.82" x2="-162.56" y2="-71.12" width="0.1524" layer="91"/>
 <label x="-162.56" y="-76.2" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN10/RPI28/RA12"/>
+<wire x1="-106.68" y1="-58.42" x2="-116.84" y2="-58.42" width="0.1524" layer="91"/>
+<label x="-116.84" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="POT_4" class="0">
@@ -13063,6 +13082,11 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-172.72" y1="-63.5" x2="-172.72" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="-172.72" y1="-76.2" x2="-172.72" y2="-73.66" width="0.1524" layer="91"/>
 <label x="-172.72" y="-76.2" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN9/RPI27/RA11"/>
+<wire x1="-106.68" y1="-63.5" x2="-116.84" y2="-63.5" width="0.1524" layer="91"/>
+<label x="-116.84" y="-63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="POT_3" class="0">

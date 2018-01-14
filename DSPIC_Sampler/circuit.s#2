@@ -12917,8 +12917,9 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <label x="-167.64" y="-147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="38.1" y1="88.9" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
-<label x="38.1" y="83.82" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="AN48/CVREF2O/RPI58/PMCS1/RC10"/>
+<wire x1="121.92" y1="22.86" x2="134.62" y2="22.86" width="0.1524" layer="91"/>
+<label x="132.08" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$65" class="0">

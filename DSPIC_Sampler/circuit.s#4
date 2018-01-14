@@ -11310,6 +11310,7 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <text x="182.88" y="127" size="1.778" layer="95">LM317 vreg</text>
 <text x="182.88" y="60.96" size="1.778" layer="95">LM317 vreg</text>
 <text x="182.88" y="-5.08" size="1.778" layer="95">LM317 vreg</text>
+<text x="180.34" y="-86.36" size="1.778" layer="95">SPI MEMORY 128MB</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="0" y="0"/>

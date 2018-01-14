@@ -12818,6 +12818,11 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-132.08" y1="-198.12" x2="-147.32" y2="-198.12" width="0.1524" layer="91"/>
 <label x="-147.32" y="-198.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="OA5OUT/AN25/C5IN4-/RP39/INT0/RB7"/>
+<wire x1="121.92" y1="27.94" x2="134.62" y2="27.94" width="0.1524" layer="91"/>
+<label x="132.08" y="27.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DAC_SDI" class="0">
 <segment>

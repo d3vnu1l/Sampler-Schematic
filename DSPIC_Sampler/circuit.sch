@@ -12601,6 +12601,10 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <pinref part="SW9" gate="G$1" pin="P$1"/>
 <label x="-198.12" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="-106.68" y1="-17.78" x2="-116.84" y2="-17.78" width="0.1524" layer="91"/>
+<label x="-116.84" y="-17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PB_13" class="0">
 <segment>
@@ -12611,8 +12615,8 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <label x="-198.12" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-43.18" y1="88.9" x2="-43.18" y2="78.74" width="0.1524" layer="91"/>
-<label x="-43.18" y="84.582" size="1.778" layer="95" rot="R90"/>
+<wire x1="-38.1" y1="88.9" x2="-38.1" y2="78.74" width="0.1524" layer="91"/>
+<label x="-38.1" y="83.82" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="PB_17" class="0">
@@ -12635,8 +12639,8 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <label x="-180.34" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-33.02" y1="88.9" x2="-33.02" y2="78.74" width="0.1524" layer="91"/>
-<label x="-33.274" y="84.074" size="1.778" layer="95" rot="R90"/>
+<wire x1="-43.18" y1="88.9" x2="-43.18" y2="78.74" width="0.1524" layer="91"/>
+<label x="-43.18" y="84.582" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="PB_10" class="0">
@@ -12647,6 +12651,10 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <pinref part="SW11" gate="G$1" pin="P$1"/>
 <label x="-180.34" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="-106.68" y1="-27.94" x2="-116.84" y2="-27.94" width="0.1524" layer="91"/>
+<label x="-116.84" y="-27.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PB_6" class="0">
 <segment>
@@ -12656,10 +12664,6 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <pinref part="SW7" gate="G$1" pin="P$1"/>
 <label x="-180.34" y="101.6" size="1.778" layer="95"/>
 </segment>
-<segment>
-<wire x1="-106.68" y1="-7.62" x2="-116.84" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-116.84" y="-7.62" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="PB_2" class="0">
 <segment>
@@ -12667,10 +12671,11 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-182.88" y1="119.38" x2="-182.88" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="114.3" x2="-175.26" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="SW2" gate="G$1" pin="P$1"/>
+<label x="-180.34" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="-43.18" x2="121.92" y2="-43.18" width="0.1524" layer="91"/>
-<label x="132.08" y="-40.64" size="1.778" layer="95" rot="R180"/>
+<wire x1="-2.54" y1="78.74" x2="-2.54" y2="88.9" width="0.1524" layer="91"/>
+<label x="-2.54" y="83.82" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="PB_3" class="0">
@@ -12679,10 +12684,11 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-165.1" y1="119.38" x2="-165.1" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-165.1" y1="114.3" x2="-157.48" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="SW3" gate="G$1" pin="P$1"/>
+<label x="-162.56" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="-38.1" x2="121.92" y2="-38.1" width="0.1524" layer="91"/>
-<label x="132.08" y="-35.56" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="-43.18" x2="121.92" y2="-43.18" width="0.1524" layer="91"/>
+<label x="132.08" y="-40.64" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PB_7" class="0">
@@ -12694,8 +12700,8 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <label x="-162.56" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-106.68" y1="-12.7" x2="-116.84" y2="-12.7" width="0.1524" layer="91"/>
-<label x="-116.84" y="-12.7" size="1.778" layer="95"/>
+<wire x1="-106.68" y1="-7.62" x2="-116.84" y2="-7.62" width="0.1524" layer="91"/>
+<label x="-116.84" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB_11" class="0">
@@ -12707,8 +12713,8 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <label x="-162.56" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="33.02" y1="-121.92" x2="33.02" y2="-132.08" width="0.1524" layer="91"/>
-<label x="33.02" y="-124.46" size="1.778" layer="95" rot="R270"/>
+<wire x1="-106.68" y1="-43.18" x2="-116.84" y2="-43.18" width="0.1524" layer="91"/>
+<label x="-111.76" y="-43.18" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PB_15" class="0">
@@ -12719,6 +12725,10 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <pinref part="SW14" gate="G$1" pin="P$1"/>
 <label x="-162.56" y="76.2" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="-33.02" y1="88.9" x2="-33.02" y2="78.74" width="0.1524" layer="91"/>
+<label x="-33.274" y="84.074" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="PB_16" class="0">
 <segment>
@@ -12727,6 +12737,10 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-147.32" y1="76.2" x2="-139.7" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="SW16" gate="G$1" pin="P$1"/>
 <label x="-144.78" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-106.68" y1="38.1" x2="-116.84" y2="38.1" width="0.1524" layer="91"/>
+<label x="-116.84" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB_12" class="0">
@@ -12738,8 +12752,8 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <label x="-144.78" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-38.1" y1="88.9" x2="-38.1" y2="78.74" width="0.1524" layer="91"/>
-<label x="-38.1" y="83.82" size="1.778" layer="95" rot="R90"/>
+<wire x1="33.02" y1="-121.92" x2="33.02" y2="-132.08" width="0.1524" layer="91"/>
+<label x="33.02" y="-124.46" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="PB_8" class="0">
@@ -12751,8 +12765,8 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <label x="-144.78" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-106.68" y1="-17.78" x2="-116.84" y2="-17.78" width="0.1524" layer="91"/>
-<label x="-116.84" y="-17.78" size="1.778" layer="95"/>
+<wire x1="-106.68" y1="-12.7" x2="-116.84" y2="-12.7" width="0.1524" layer="91"/>
+<label x="-116.84" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB_4" class="0">
@@ -12762,6 +12776,10 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-147.32" y1="114.3" x2="-139.7" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="SW4" gate="G$1" pin="P$1"/>
 <label x="-144.78" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="132.08" y1="-38.1" x2="121.92" y2="-38.1" width="0.1524" layer="91"/>
+<label x="132.08" y="-35.56" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="GND1" class="0">
@@ -13029,29 +13047,6 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-172.72" y1="-152.4" x2="-172.72" y2="-149.86" width="0.1524" layer="91"/>
 <wire x1="-172.72" y1="-149.86" x2="-162.56" y2="-149.86" width="0.1524" layer="91"/>
 <label x="-167.64" y="-149.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PB_18" class="0">
-<segment>
-<wire x1="-2.54" y1="78.74" x2="-2.54" y2="88.9" width="0.1524" layer="91"/>
-<label x="-2.54" y="83.82" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="PB_23" class="0">
-<segment>
-<wire x1="-106.68" y1="-27.94" x2="-116.84" y2="-27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PB_24" class="0">
-<segment>
-<wire x1="-106.68" y1="-43.18" x2="-116.84" y2="-43.18" width="0.1524" layer="91"/>
-<label x="-111.76" y="-43.18" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="PB_29" class="0">
-<segment>
-<wire x1="-106.68" y1="38.1" x2="-116.84" y2="38.1" width="0.1524" layer="91"/>
-<label x="-116.84" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="POT_6" class="0">
