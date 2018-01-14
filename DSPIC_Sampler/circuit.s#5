@@ -12772,25 +12772,15 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <pinref part="R13" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="ADC_SCK" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="SCK"/>
-<wire x1="109.22" y1="157.48" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
-<label x="116.84" y="157.48" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="ADC_SDO" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="SDO"/>
 <wire x1="109.22" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
 <label x="116.84" y="152.4" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="ADC_CONV" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="CONV"/>
-<wire x1="109.22" y1="147.32" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
-<label x="116.84" y="147.32" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="SOSCI/RPI61/RC13"/>
+<wire x1="121.92" y1="33.02" x2="134.62" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$44" class="0">
@@ -12811,6 +12801,11 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="121.92" y1="38.1" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
 <label x="132.08" y="38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="SCK"/>
+<wire x1="109.22" y1="157.48" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
+<label x="116.84" y="157.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DAC_WS" class="0">
 <segment>
@@ -12822,6 +12817,11 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <pinref part="U$1" gate="G$1" pin="OA5OUT/AN25/C5IN4-/RP39/INT0/RB7"/>
 <wire x1="121.92" y1="27.94" x2="134.62" y2="27.94" width="0.1524" layer="91"/>
 <label x="132.08" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="CONV"/>
+<wire x1="109.22" y1="147.32" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
+<label x="116.84" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DAC_SDI" class="0">
@@ -12851,12 +12851,22 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="-157.48" y1="7.62" x2="-147.32" y2="7.62" width="0.1524" layer="91"/>
 <label x="-149.86" y="7.62" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PGED2/ASDA2/RP37/RB5"/>
+<wire x1="121.92" y1="12.7" x2="134.62" y2="12.7" width="0.1524" layer="91"/>
+<label x="132.08" y="12.7" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="BT_RX" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="RX"/>
 <wire x1="-157.48" y1="5.08" x2="-147.32" y2="5.08" width="0.1524" layer="91"/>
 <label x="-149.86" y="5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="RPI72/RD8"/>
+<wire x1="121.92" y1="7.62" x2="134.62" y2="7.62" width="0.1524" layer="91"/>
+<label x="132.08" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$50" class="0">
