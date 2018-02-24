@@ -13234,6 +13234,27 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <label x="-116.84" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="LED_R" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN36/RF13"/>
+<wire x1="38.1" y1="-121.92" x2="38.1" y2="-132.08" width="0.1524" layer="91"/>
+<label x="40.64" y="-132.08" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="LED_G" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN37/RF12"/>
+<wire x1="43.18" y1="-121.92" x2="43.18" y2="-132.08" width="0.1524" layer="91"/>
+<label x="45.72" y="-132.08" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="LED_B" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN38/RD14"/>
+<wire x1="78.74" y1="-121.92" x2="78.74" y2="-132.08" width="0.1524" layer="91"/>
+<label x="78.74" y="-134.62" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

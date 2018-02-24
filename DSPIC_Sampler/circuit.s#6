@@ -13203,6 +13203,20 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <label x="148.844" y="-95.758" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="ENC_A" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="OA2OUT/AN0/C2IN4-/C4IN3-/RPI16/RA0"/>
+<wire x1="-106.68" y1="-68.58" x2="-116.84" y2="-68.58" width="0.1524" layer="91"/>
+<label x="-116.84" y="-68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ENC_B" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN9/RPI27/RA11"/>
+<wire x1="-106.68" y1="-63.5" x2="-116.84" y2="-63.5" width="0.1524" layer="91"/>
+<label x="-116.84" y="-63.5" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

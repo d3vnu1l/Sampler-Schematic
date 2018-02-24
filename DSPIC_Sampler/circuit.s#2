@@ -68,7 +68,7 @@
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
 <layer number="103" name="fp3" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="yes"/>
 <layer number="106" name="BGA-Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="107" name="BD-Top" color="5" fill="1" visible="no" active="yes"/>
@@ -84,10 +84,10 @@
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
@@ -11344,7 +11344,7 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <instance part="C12" gate="G$1" x="66.04" y="-149.86" rot="R90"/>
 <instance part="C13" gate="G$1" x="139.7" y="-20.32" rot="R180"/>
 <instance part="C14" gate="G$1" x="17.78" y="101.6" rot="R270"/>
-<instance part="C15" gate="G$1" x="15.24" y="96.52"/>
+<instance part="C15" gate="G$1" x="20.32" y="93.98" rot="MR0"/>
 <instance part="C16" gate="G$1" x="-127" y="35.56"/>
 <instance part="J1" gate="G$1" x="-177.8" y="-35.56" rot="R180"/>
 <instance part="C17" gate="G$1" x="-124.46" y="-20.32"/>
@@ -11614,7 +11614,7 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="17.78" y1="99.06" x2="17.78" y2="106.68" width="0.1524" layer="91"/>
 <label x="17.78" y="106.68" size="1.778" layer="95" rot="R270"/>
 <pinref part="C15" gate="G$1" pin="A"/>
-<wire x1="17.78" y1="96.52" x2="17.78" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="93.98" x2="17.78" y2="99.06" width="0.1524" layer="91"/>
 <junction x="17.78" y="99.06"/>
 </segment>
 <segment>
@@ -12149,7 +12149,7 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <segment>
 <pinref part="C15" gate="G$1" pin="B"/>
 <pinref part="U$1" gate="G$1" pin="VCAP"/>
-<wire x1="17.78" y1="86.36" x2="17.78" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="83.82" x2="17.78" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3,3" class="0">
@@ -13147,6 +13147,7 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <segment>
 <pinref part="U$1" gate="G$1" pin="RP57/RC9"/>
 <wire x1="22.86" y1="78.74" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
+<label x="25.4" y="86.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="MEM_SI" class="0">
@@ -13158,7 +13159,7 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <segment>
 <pinref part="U$1" gate="G$1" pin="RP70/RD6"/>
 <wire x1="27.94" y1="78.74" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
-<label x="27.94" y="83.82" size="1.778" layer="95" rot="R90"/>
+<label x="30.48" y="86.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="MEM_CS2" class="0">
