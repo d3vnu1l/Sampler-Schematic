@@ -68,7 +68,7 @@
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
 <layer number="103" name="fp3" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="yes"/>
 <layer number="106" name="BGA-Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="107" name="BD-Top" color="5" fill="1" visible="no" active="yes"/>
@@ -84,10 +84,10 @@
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
@@ -11344,7 +11344,7 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <instance part="C12" gate="G$1" x="66.04" y="-149.86" rot="R90"/>
 <instance part="C13" gate="G$1" x="139.7" y="-20.32" rot="R180"/>
 <instance part="C14" gate="G$1" x="17.78" y="101.6" rot="R270"/>
-<instance part="C15" gate="G$1" x="15.24" y="96.52"/>
+<instance part="C15" gate="G$1" x="20.32" y="93.98" rot="MR0"/>
 <instance part="C16" gate="G$1" x="-127" y="35.56"/>
 <instance part="J1" gate="G$1" x="-177.8" y="-35.56" rot="R180"/>
 <instance part="C17" gate="G$1" x="-124.46" y="-20.32"/>
@@ -11614,7 +11614,7 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="17.78" y1="99.06" x2="17.78" y2="106.68" width="0.1524" layer="91"/>
 <label x="17.78" y="106.68" size="1.778" layer="95" rot="R270"/>
 <pinref part="C15" gate="G$1" pin="A"/>
-<wire x1="17.78" y1="96.52" x2="17.78" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="93.98" x2="17.78" y2="99.06" width="0.1524" layer="91"/>
 <junction x="17.78" y="99.06"/>
 </segment>
 <segment>
@@ -12149,7 +12149,7 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <segment>
 <pinref part="C15" gate="G$1" pin="B"/>
 <pinref part="U$1" gate="G$1" pin="VCAP"/>
-<wire x1="17.78" y1="86.36" x2="17.78" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="83.82" x2="17.78" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3,3" class="0">
@@ -13144,6 +13144,11 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="195.58" y1="-109.22" x2="205.74" y2="-109.22" width="0.1524" layer="91"/>
 <label x="200.66" y="-109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="RP57/RC9"/>
+<wire x1="22.86" y1="78.74" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
+<label x="25.4" y="86.36" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="MEM_SI" class="0">
 <segment>
@@ -13151,12 +13156,22 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="195.58" y1="-114.3" x2="205.74" y2="-114.3" width="0.1524" layer="91"/>
 <label x="200.66" y="-114.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="RP70/RD6"/>
+<wire x1="27.94" y1="78.74" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
+<label x="30.48" y="86.36" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="MEM_CS2" class="0">
 <segment>
 <pinref part="U$8" gate="G$1" pin="CS2#"/>
 <wire x1="160.02" y1="-134.62" x2="147.32" y2="-134.62" width="0.1524" layer="91"/>
 <label x="144.78" y="-134.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN39/RD15"/>
+<wire x1="83.82" y1="-121.92" x2="83.82" y2="-132.08" width="0.1524" layer="91"/>
+<label x="83.82" y="-134.62" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="MEM_CS1" class="0">
@@ -13177,6 +13192,11 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <wire x1="160.02" y1="-144.78" x2="147.32" y2="-144.78" width="0.1524" layer="91"/>
 <label x="144.78" y="-144.78" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="RPI76/RD12"/>
+<wire x1="48.26" y1="78.74" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
+<label x="48.26" y="86.36" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="MEM_RESET" class="0">
 <segment>
@@ -13193,16 +13213,46 @@ Source: &lt;a href="http://www.lcd-module.de/pdf/doma/dip162-d.pdf"&gt; Data she
 <label x="148.844" y="-95.758" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="ENC_A" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="RPI76/RD12"/>
-<wire x1="48.26" y1="78.74" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="OA2OUT/AN0/C2IN4-/C4IN3-/RPI16/RA0"/>
+<wire x1="-106.68" y1="-68.58" x2="-116.84" y2="-68.58" width="0.1524" layer="91"/>
+<label x="-116.84" y="-68.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="ENC_B" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="RP70/RD6"/>
-<wire x1="27.94" y1="78.74" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="AN9/RPI27/RA11"/>
+<wire x1="-106.68" y1="-63.5" x2="-116.84" y2="-63.5" width="0.1524" layer="91"/>
+<label x="-116.84" y="-63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ENC_PUSH" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN22/RG10"/>
+<wire x1="-106.68" y1="-43.18" x2="-116.84" y2="-43.18" width="0.1524" layer="91"/>
+<label x="-116.84" y="-43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED_R" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN36/RF13"/>
+<wire x1="38.1" y1="-121.92" x2="38.1" y2="-132.08" width="0.1524" layer="91"/>
+<label x="40.64" y="-132.08" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="LED_G" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN37/RF12"/>
+<wire x1="43.18" y1="-121.92" x2="43.18" y2="-132.08" width="0.1524" layer="91"/>
+<label x="45.72" y="-132.08" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="LED_B" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="AN38/RD14"/>
+<wire x1="78.74" y1="-121.92" x2="78.74" y2="-132.08" width="0.1524" layer="91"/>
+<label x="78.74" y="-134.62" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
